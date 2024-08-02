@@ -3,7 +3,9 @@ Now the app is simple to run, just dont forget to insert your own GOOGLE API key
 Differences in apps:
 
 1- Normal Q&A: Uses a load_qa_chain as the main QA chain and the history of conversations isnt displayed in the streamlit application.
+
 2- Q&A with history: same method as 1 but the history is mantained and displayed this time around.
+
 3- Different Retriever: as the name suggests the load_qa_chain is not used, instead a retriever is used.
 
 Further:
